@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 80" width="800" height="80" role="img" aria-label="Bannière animée : quatre carrés colorés traversent l'écran">
+  <style>
+    .carre { animation: traverse 4s linear infinite; }
+    .c1 { fill: #00f2fe; animation-delay: -3s; }
+    .c2 { fill: #43e97b; animation-delay: -2s; }
+    .c3 { fill: #fa709a; animation-delay: -1s; }
+    .c4 { fill: #fee140; }
+
+    @keyframes traverse {
+      from { transform: translateX(-40px); }
+      to   { transform: translateX(840px); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .carre { animation: none; }
+      .c1 { transform: translateX(640px); }
+      .c2 { transform: translateX(460px); }
+      .c3 { transform: translateX(280px); }
+      .c4 { transform: translateX(100px); }
+    }
+  </style>
+
+  <rect width="800" height="80" rx="10" fill="#0f2027"/>
+
+  <rect class="carre c1" y="25" width="30" height="30" rx="6"/>
+  <rect class="carre c2" y="25" width="30" height="30" rx="6"/>
+  <rect class="carre c3" y="25" width="30" height="30" rx="6"/>
+  <rect class="carre c4" y="25" width="30" height="30" rx="6"/>
+</svg>
