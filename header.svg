@@ -1,29 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 80" width="800" height="80" role="img" aria-label="Bannière animée : quatre carrés colorés traversent l'écran">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 80" width="800" height="80" role="img" aria-label="Bannière : grille de carrés façon GitHub traversée par quatre carrés portant Java, Python, PHP et SQL">
   <style>
-    .carre { animation: traverse 4s linear infinite; }
-    .c1 { fill: #00f2fe; animation-delay: -3s; }
-    .c2 { fill: #43e97b; animation-delay: -2s; }
-    .c3 { fill: #fa709a; animation-delay: -1s; }
-    .c4 { fill: #fee140; }
+    .carre { animation: traverse 8s linear infinite; }
+    .java { animation-delay: 0s; }
+    .py   { animation-delay: -2s; }
+    .php  { animation-delay: -4s; }
+    .sql  { animation-delay: -6s; }
 
     @keyframes traverse {
-      from { transform: translateX(-40px); }
+      from { transform: translateX(-60px); }
       to   { transform: translateX(840px); }
     }
 
     @media (prefers-reduced-motion: reduce) {
       .carre { animation: none; }
-      .c1 { transform: translateX(640px); }
-      .c2 { transform: translateX(460px); }
-      .c3 { transform: translateX(280px); }
-      .c4 { transform: translateX(100px); }
     }
+
+    text { font: 700 14px ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; fill: #0d1117; }
   </style>
 
-  <rect width="800" height="80" rx="10" fill="#0f2027"/>
+  <defs>
+    <pattern id="g" x="10" y="5" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" rx="2" fill="#161b22"/>
+    </pattern>
+  </defs>
 
-  <rect class="carre c1" y="25" width="30" height="30" rx="6"/>
-  <rect class="carre c2" y="25" width="30" height="30" rx="6"/>
-  <rect class="carre c3" y="25" width="30" height="30" rx="6"/>
-  <rect class="carre c4" y="25" width="30" height="30" rx="6"/>
+  <rect x="0.5" y="0.5" width="799" height="79" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <rect x="10" y="5" width="780" height="70" fill="url(#g)"/>
+
+  <g stroke-width="4" stroke-linejoin="round">
+    <path fill="#0e4429" stroke="#0e4429" d="M22 27h4v4h-4zM32 27h4v4h-4zM32 47h4v4h-4zM72 7h4v4h-4zM82 17h4v4h-4zM82 47h4v4h-4zM82 57h4v4h-4zM92 47h4v4h-4zM92 57h4v4h-4zM102 37h4v4h-4zM112 7h4v4h-4zM112 47h4v4h-4zM122 67h4v4h-4zM132 27h4v4h-4zM142 27h4v4h-4zM152 27h4v4h-4zM162 17h4v4h-4zM162 47h4v4h-4zM172 7h4v4h-4zM172 67h4v4h-4zM242 37h4v4h-4zM292 27h4v4h-4zM302 17h4v4h-4zM382 7h4v4h-4zM402 47h4v4h-4zM452 37h4v4h-4zM462 47h4v4h-4zM482 47h4v4h-4zM502 67h4v4h-4zM512 57h4v4h-4zM522 7h4v4h-4zM532 17h4v4h-4zM532 27h4v4h-4zM532 67h4v4h-4zM542 37h4v4h-4zM562 37h4v4h-4zM602 7h4v4h-4zM602 27h4v4h-4zM632 7h4v4h-4zM632 27h4v4h-4zM672 7h4v4h-4zM672 17h4v4h-4zM702 37h4v4h-4zM742 27h4v4h-4zM752 7h4v4h-4zM762 37h4v4h-4z"/>
+    <path fill="#006d32" stroke="#006d32" d="M12 67h4v4h-4zM32 67h4v4h-4zM72 57h4v4h-4zM92 7h4v4h-4zM92 37h4v4h-4zM112 67h4v4h-4zM142 47h4v4h-4zM152 17h4v4h-4zM182 37h4v4h-4zM192 17h4v4h-4zM212 67h4v4h-4zM232 27h4v4h-4zM262 67h4v4h-4zM292 47h4v4h-4zM302 67h4v4h-4zM322 27h4v4h-4zM442 47h4v4h-4zM462 17h4v4h-4zM472 47h4v4h-4zM472 67h4v4h-4zM522 47h4v4h-4zM552 57h4v4h-4zM562 7h4v4h-4zM622 37h4v4h-4zM642 47h4v4h-4zM652 7h4v4h-4zM652 17h4v4h-4zM692 67h4v4h-4zM702 27h4v4h-4zM742 67h4v4h-4z"/>
+    <path fill="#26a641" stroke="#26a641" d="M22 37h4v4h-4zM62 17h4v4h-4zM92 27h4v4h-4zM142 57h4v4h-4zM232 17h4v4h-4zM242 67h4v4h-4zM302 37h4v4h-4zM382 47h4v4h-4zM382 57h4v4h-4zM462 37h4v4h-4zM472 37h4v4h-4zM512 27h4v4h-4zM542 7h4v4h-4zM562 57h4v4h-4zM682 17h4v4h-4zM722 17h4v4h-4zM782 67h4v4h-4z"/>
+    <path fill="#39d353" stroke="#39d353" d="M22 57h4v4h-4zM102 67h4v4h-4zM132 57h4v4h-4zM182 7h4v4h-4zM342 7h4v4h-4zM432 47h4v4h-4zM502 47h4v4h-4zM602 57h4v4h-4zM642 67h4v4h-4zM652 37h4v4h-4zM672 67h4v4h-4z"/>
+  </g>
+
+  <g class="carre java" transform="translate(150 0)">
+    <rect y="15" width="48" height="48" rx="8" fill="#f89820"/>
+    <text x="24" y="39" dy=".35em" text-anchor="middle">Java</text>
+  </g>
+  <g class="carre py" transform="translate(330 0)">
+    <rect y="15" width="48" height="48" rx="8" fill="#ffd43b"/>
+    <text x="24" y="39" dy=".35em" text-anchor="middle">Py</text>
+  </g>
+  <g class="carre php" transform="translate(510 0)">
+    <rect y="15" width="48" height="48" rx="8" fill="#8892bf"/>
+    <text x="24" y="39" dy=".35em" text-anchor="middle">PHP</text>
+  </g>
+  <g class="carre sql" transform="translate(690 0)">
+    <rect y="15" width="48" height="48" rx="8" fill="#4fa3e0"/>
+    <text x="24" y="39" dy=".35em" text-anchor="middle">SQL</text>
+  </g>
 </svg>
