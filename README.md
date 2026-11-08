@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0f2027,50:203a43,100:2c5364&amp;height=120" alt="" width="100%" />
+<img src="./header.svg" alt="Bannière animée" width="100%" />
 
 <h1>👋 Bonjour, moi c'est <b>Raslen Khazri</b></h1>
 
@@ -28,13 +28,7 @@
 
 ---
 
-## 📊 Statistiques GitHub
-
-<p align="center"><img height="170" src="https://github-readme-stats.vercel.app/api?username=khazriraslen032-sudo&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true" alt="Statistiques GitHub" /> <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=khazriraslen032-sudo&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true" alt="Langages les plus utilisés" /></p>
-
----
-
-## 📫 Contact
+## 📫 Mes comptes
 
 <p align="center"><a href="mailto:khazriraslen032@gmail.com"><img src="https://img.shields.io/badge/Email-khazriraslen032%40gmail.com-D14836?style=flat-square&amp;logo=gmail&amp;logoColor=white" alt="Email" /></a> <a href="https://www.linkedin.com/in/raslen-khazri-444aa0399"><img src="https://img.shields.io/badge/LinkedIn-Raslen%20Khazri-0A66C2?style=flat-square" alt="LinkedIn" /></a> <a href="https://github.com/khazriraslen032-sudo"><img src="https://img.shields.io/badge/GitHub-khazriraslen032--sudo-181717?style=flat-square&amp;logo=github&amp;logoColor=white" alt="GitHub" /></a></p>
 
